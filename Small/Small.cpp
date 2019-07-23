@@ -9,10 +9,16 @@ int main()
 	cout << endl << endl;
 
 	int i;
-	i = 3;
+	i = 4.9;
 	cout << i << endl;
 	
-	int j = 2;
+	int j = 9/5;
 	cout << j << endl;
+
+	float f = 4.9;
+	cout << f << endl;
+	f = 9.0 / 5;
+	cout << f << endl;
+
 	return 0;
 }
