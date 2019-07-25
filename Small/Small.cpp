@@ -9,7 +9,7 @@ double add(double x, double y)
 
 int main()
 {
-	int a = add(3, 4);
+	double a = add(3, 4);
 	cout << "3 + 4 is " << a;
 
 	cout << endl;
