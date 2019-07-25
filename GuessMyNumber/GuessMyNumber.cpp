@@ -10,7 +10,7 @@ int main()
 	int answer = 7;
 	int guess;
 
-	cout << "Please guess a number:";
+	cout << "Please guess a number: ";
 	cin >> guess;
 	
 	while (true)
