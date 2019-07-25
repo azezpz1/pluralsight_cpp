@@ -2,23 +2,15 @@
 
 using namespace std;
 
+int add(int x, int y)
+{
+	return x + y;
+}
+
 int main()
 {
-	cout << "Hello!" << endl << 2 + 2;
-
-	cout << endl << endl;
-
-	int i;
-	i = 4.9;
-	cout << i << endl;
-	
-	int j = 9/5;
-	cout << j << endl;
-
-	float f = 4.9;
-	cout << f << endl;
-	f = 9.0 / 5;
-	cout << f << endl;
+	int a = add(3, 4);
+	cout << "3 + 4 is " << a;
 
 	return 0;
 }
