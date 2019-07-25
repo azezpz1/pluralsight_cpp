@@ -17,15 +17,15 @@ int main()
 	{
 		if (guess < answer)
 		{
-			cout << "Your answer is to small";
+			cout << "Your answer is to small" << endl;
 		}
 		else if (guess > answer)
 		{
-			cout << "Your answer is too big";
+			cout << "Your answer is too big" << endl;
 		}
 		else
 		{
-			cout << "You got the answer right!";
+			cout << "You got the answer right!" << endl;
 			return 0;
 		}
 
