@@ -1,24 +1,23 @@
 #include <iostream>
 
+#include "Functions.h"
+
 using namespace std;
 
 int main()
 {
-	cout << "Hello!" << endl << 2 + 2;
+	double a = add(3, 4);
+	cout << "3 + 4 is " << a;
 
-	cout << endl << endl;
+	cout << endl;
 
-	int i;
-	i = 4.9;
-	cout << i << endl;
-	
-	int j = 9/5;
-	cout << j << endl;
+	double b = add(1.2, 3.4);
+	cout << "1.2 + 3.4 is " << b;
 
-	float f = 4.9;
-	cout << f << endl;
-	f = 9.0 / 5;
-	cout << f << endl;
+	cout << endl;
+
+	double c = add(1.1, 2.2, 3.3);
+	cout << "1.1 + 2.2 + 3.3 is " << c;
 
 	return 0;
 }
