@@ -1,9 +1,8 @@
 #include <iostream>
 
-using namespace std;
+#include "Functions.h"
 
-double add(double x, double y);
-double add(double a, double b, double c);
+using namespace std;
 
 int main()
 {
