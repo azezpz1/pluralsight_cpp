@@ -17,6 +17,16 @@ int main()
 	}
 
 	cout << greeting << endl;
+	int l = greeting.length();
+	cout << "\"" + greeting + "\" is "
+		<< l << " characters long." << endl;
+	auto space = greeting.find(" ");
+	string beginning = greeting.substr(space + 1);
+	cout << beginning << endl;;
+	if (beginning == name)
+	{
+		cout << "expected result." << endl;
+	}
 
 	double a = add(3, 4);
 	cout << "3 + 4 is " << a;
