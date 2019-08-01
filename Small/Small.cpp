@@ -17,7 +17,6 @@ int main()
 	}
 
 	cout << greeting << endl;
-	return 0;
 
 	double a = add(3, 4);
 	cout << "3 + 4 is " << a;
