@@ -2,10 +2,36 @@
 //
 
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	string first;
+	string second;
+
+	cout << "Submit your first work: ";
+	cin >> first;
+	cout << "Submit your second word: ";
+	cin >> second;
+
+	string longest;
+
+	if (first > second)
+	{
+		longest = first;
+	}
+	else if (first == second)
+	{
+		longest = "They're the same length!";
+	}
+	else
+	{
+		longest = second;
+	}
+
+	cout << longest;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
