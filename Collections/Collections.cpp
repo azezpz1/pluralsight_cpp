@@ -16,7 +16,7 @@ int main()
 		vi.push_back(i);
 	}
 
-	for (auto item:vi)
+	for (auto item : vi)
 	{
 		cout << item << " ";
 	}
@@ -35,6 +35,31 @@ int main()
 	for (auto item : vs)
 	{
 		cout << item << " ";
+	}
+	cout << endl;
+
+	cout << "int vector vi has " << vi.size() << " elements." << endl;
+
+	vi[5] = 3;
+	vi[6] = -1;
+	vi[1] = 99;
+
+	//Different ways to print vi
+	for (auto item : vi)
+	{
+		cout << item << " ";
+	}
+	cout << endl;
+
+	for (unsigned int i = 0; i < vi.size(); i++)
+	{
+		cout << vi[i] << " ";
+	}
+	cout << endl;
+
+	for (auto i = begin(vi); i != end(vi); i++)
+	{
+		cout << *i << " ";
 	}
 	cout << endl;
 }
