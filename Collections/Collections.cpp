@@ -45,7 +45,7 @@ int main()
 	vi[1] = 99;
 
 	//Different ways to print vi
-	for (auto item : vi)
+	for (auto item:vi)
 	{
 		cout << item << " ";
 	}
@@ -60,6 +60,13 @@ int main()
 	for (auto i = begin(vi); i != end(vi); i++)
 	{
 		cout << *i << " ";
+	}
+	cout << endl;
+
+	sort(begin(vs), end(vs));
+	for (auto item : vs)
+	{
+		cout << item << " ";
 	}
 	cout << endl;
 }
