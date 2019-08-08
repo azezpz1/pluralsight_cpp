@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Account::Account(void):balance(0)
+Account::Account(void):balance(0),limit(100)
 {
 
 }
@@ -39,7 +39,7 @@ bool Account::Withdraw(int amt)
 {
 	if (amt >= 0)
 	{
-		if (balance >= amt)
+		if (balance + limit >= amt)
 		{
 			balance -= amt;
 			log.push_back(Transaction(amt, "Withdraw"));

@@ -8,6 +8,7 @@ class Account
 private:
 	int balance;
 	std::vector<Transaction> log;
+	int limit;
 
 public:
 	Account();
