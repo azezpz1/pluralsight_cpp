@@ -15,5 +15,5 @@ public:
 	std::vector<std::string> Report();
 	bool Deposit(int amt);
 	bool Withdraw(int amt);
-	int GetBalance() {return balance;};
+	int GetBalance() const {return balance;};
 };

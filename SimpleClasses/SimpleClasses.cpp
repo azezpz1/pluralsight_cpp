@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
 	Account a1;
-	a1.Deposit(90);
+	const int amount = 90;
+	a1.Deposit(amount);
 	cout << "After depositing $90" <<
 		"balance is " << a1.GetBalance() << endl;
 	for (auto s : a1.Report())
